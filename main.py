@@ -28,4 +28,6 @@ def update_item(item_id: int, item: Item):
 
 @app.delete("/items/{item_id}")
 def delete_item(item_id:int):
-    return {'item id deleted'}
+    return {'item id de'}
+
+
